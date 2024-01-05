@@ -1,0 +1,27 @@
+type: object
+properties:
+  idUser:
+    type: integer
+    description: product's id
+    format: int32
+  nom:
+    type: string
+    description: user's name
+  prenom:
+    type: string
+    description: user's firstname
+  email:
+    type: string
+    description: user's email
+  password:
+    type: string
+    description: user's password
+  etat:
+    type: integer
+    description: user's state
+    format: int32
+  produits:
+    type: array
+    items:
+      $ref: '../produits/ProduitDTO.yml'
+      description: user's product list

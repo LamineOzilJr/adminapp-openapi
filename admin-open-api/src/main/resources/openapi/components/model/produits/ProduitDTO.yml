@@ -1,0 +1,12 @@
+type: object
+properties:
+  idProduit:
+    type: integer
+    description: produuct's id
+    format: int32
+  name:
+    type: string
+    description: product's name
+  user:
+    description: product adder
+    $ref: '../app-users/AppUserDTO.yml'

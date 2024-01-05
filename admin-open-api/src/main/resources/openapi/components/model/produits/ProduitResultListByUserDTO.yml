@@ -1,0 +1,11 @@
+type: object
+properties:
+  idUser:
+    type: integer
+    description: client id
+    format: int32
+  produitsList:
+    type: array
+    description: User's productList
+    items:
+      $ref: './ProduitDTO.yml'
