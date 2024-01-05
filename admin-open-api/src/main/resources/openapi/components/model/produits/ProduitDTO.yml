@@ -2,7 +2,7 @@ type: object
 properties:
   idProduit:
     type: integer
-    description: produuct's id
+    description: product's id
     format: int32
   name:
     type: string
