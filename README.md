@@ -78,7 +78,7 @@ mvn clean install
   - `sizePage` (query, required, int32): Taille de la page.
 - **Réponses:**
   - `200`: SUCCESS
-    - Contenu: [ProduitsResultListDTO](../model/produits/ProduitsResultListDTO.yml)
+    - Contenu: [ProduitsListDTO](../model/produits/ProduitsListDTO.yml)
   - `404`: NOT FOUND
   - `400`: BAD REQUEST
 
@@ -109,7 +109,7 @@ mvn clean install
   - `sizePage` (query, required, int32): Taille de la page.
 - **Réponses:**
   - `200`: SUCCESS
-    - Contenu: [ProduitResultListByUserDTO](../model/produits/ProduitResultListByUserDTO.yml)
+    - Contenu: [UsersProduitListDTO](../model/produits/UsersProduitListDTO.yml)
   - `404`: NOT FOUND
   - `400`: BAD REQUEST
 
