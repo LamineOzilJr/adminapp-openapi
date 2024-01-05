@@ -3,8 +3,8 @@
 # Projet Admin OpenAPI
 
 Ce projet est une configuration Maven pour la génération et le déploiement d'une API OpenAPI. 
-NB : Faut savoir que c'est un projet dispatcher en 3 modules : le backend avec du java springboot, l'openapi pour la gestion des api et le front avec Angular
-    Il est aussi importeant de noter que open api va nous gerer nos DTO.
+# NB : Faut savoir que c'est un projet dispatcher en 3 modules : le backend avec du java springboot, l'openapi pour la gestion des api et le front avec Angular
+#       Il est aussi importeant de noter que open api va nous gerer nos DTO.
 
 ## Informations Générales
 
